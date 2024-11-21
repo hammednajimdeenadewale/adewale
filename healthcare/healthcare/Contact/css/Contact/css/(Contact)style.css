@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+ }
+ nav{                                                     
+    width:100%;
+    padding: 1%;
+    gap:50px;
+    display:flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: white;
+    height:150px;
+}
+.nav-item{
+    display:flex;
+    gap:7px;
+    width:75%;
+    align-content: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 130px;
+}
+.nav-item1{
+   width: 40%;
+   height:auto;
+   display:block;
+   cursor: pointer;
+   text-transform: uppercase;
+   text-decoration: none;
+   gap: 1px;
+}
+.nav-item1>img{
+   width: 85%;
+   height: 95px;
+ }
+.nav-item1>p{
+   font-size: 10px;
+   color: darkblue;
+   margin:-0.5%;  
+   padding-left:60px;
+   display: inline;
+}
+.nav-item1>h5{
+   font-size: 10px;
+   color:rgb(255, 140, 0);
+   margin: -0.10%;  
+   padding-left:05px;
+   display: inline;
+}
+.nav-itembar{
+   font-size: 20px;
+   padding: left;
+   align-content: right;
+   width: 50%;
+   display:flex;
+   gap: 30px;
+   height: 30px;
+} 
+.nav-itembar>a{
+   text-decoration:none;
+   font-size: 20px;
+   color: black;
+   padding-left:30px;
+   align-content: center;
+   width:70%;
+   margin-left:35%;
+   gap:1.5px;
+   display: flex;
+   margin-top: 35px;
+   display: inline-flex;
+} 
+.nav-itembar>a:hover{
+    color: goldenrod;
+    /* border-bottom: 3px solid blue; */
+}
+.heee{
+    visibility: hidden;
+}
+.nav-itemb{
+    font-size: 20px;
+    align-content: left;
+    justify-content: left;
+    width: 50%;
+    display:flex;
+    gap:1px;
+    height: 30px;
+ } 
+  .nav-itemb>btn{
+    color: white;
+    font-size: 18px; 
+    background-color: black;
+    text-align: center;
+    margin:10%;
+    padding-top: 08%;
+    height: 40px;
+    align-items: space;
+    width:80%;
+    border: 3px;
+ }
+ 
+ .nav-itemb>button{
+    color: white;
+    font-size:17px; 
+    background-color:rgba(231, 169, 12, 0.83);
+    text-align: center;
+    cursor: auto;
+    margin:15%;
+    width:50%;
+    height: 100%;
+    align-items: center;
+    border: 3px;
+ }
+.container{
+    width:100% ;
+    display: flex;
+    gap:10px ;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    height:auto ;
+    border-top: 10px solid goldenrod;
+}
+.item{
+    width: 100%;
+    display: block;
+}
+.item>img{
+    width: 100%;
+    height:600px;
+}
+.item1>img{
+   position:absolute;
+   top: 250px;
+   right:60px;
+   height: 400px;
+   width:400px;
+   border-radius: 50%;
+   border-inline:3px solid goldenrod;
+   z-index:15;
+}
+.item2>img{
+   position:absolute;
+   top: 400px;
+   right:280px;
+   height: 300px;
+   width:300px;
+   border-radius: 50%;
+   border-inline:3px solid goldenrod;
+   z-index:20;
+}
+.overlay-text{
+    position:absolute;
+    top: 50%;
+    right:45%;
+    transform: translate(-50%,-30%);
+    color: goldenrod;
+    padding:5px;
+    font-size: 50px;
+    text-align: left;
+}
+.overlay-text>P{
+   position:absolute;
+   top: 180%;
+   right: 1%;
+   transform: translate(-50%,-30%);
+   color: white;
+   font-size:9px;
+   text-align:right;
+   display:flex;
+   margin-top: 200px;
+   gap: 50px;
+}
+.contain{
+   width: 100%;
+   height:300px;
+   display:inline
+   gap:1px;
+}
+contain-item{
+    width: 20%;
+    height:auto;
+    display:block;
+    gap:2px;
+    justify-content: left;
+    padding:0;
+ }
+ .contain-item>img{
+    width:30%;
+    height:150px;
+  }
+  .contain-ite{
+   width: 20%;
+   display:block;
+   justify-content: center;
+   align-items:center;
+   gap: 5px;
+   height:40px;
+}
+ .contain-ite>p{
+    font-size: 20px;
+    color: darkblue;
+    margin:1%; 
+    padding-left:130px;
+    display: inline;
+    /* margin-bottom:50px; */
+    align-items:top;
+ }
+ .contain-ite>h5{
+    font-size: 20px;
+    color:rgb(255, 140, 0);
+    margin: 1%;  
+    padding-left:3px;
+    display: inline; 
+    /* margin-bottom:100px ; */
+    align-items: top;
+ }
+
+ contain-item1{
+    width: 40%;
+    height:50px;
+    display:block;
+    align-content: center;
+    justify-content: center;
+    cursor: pointer
+    gap: 3px;
+ }
+ .contain-item1>b{
+    font-size: 20px;
+    color:black;
+    padding-left:100px;
+    display:block
+    text-align: center;
+    margin:2%;
+ }
+ .contain-item1>p{
+    font-size: 15px;
+    color:black;
+    /* margin-left:08px;   */
+    padding-left:100px;
+    display: block;
+    text-align:left;
+    margin:2%;
+ }
+ .form{
+    width: 100%;
+    height:610px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding:5%;
+ }
+.form-item{
+   width: 50%;
+   display: block;
+   gap: 10px;
+   margin-top:3px;
+   padding-left: 45px;
+}
+.form-item>label{ color: rgb(9, 9, 9); 
+   border: 3px black;
+   padding:10px;
+   margin:5px;
+   text-align:center;  
+   width: 40%; 
+}
+.form-item>input{
+   background-color: rgb(246, 230, 230);
+   border: 3px;
+   padding:10px;
+   margin: 10px;
+   width:90%;   
+}
+.form-item>button{
+   background-color:goldenrod;
+   text-align: center;
+   color: white;
+   border: 3px;
+   padding:10px;
+   margin:10px;
+   width:90%
+}
+.form-item>p{
+   color:black;
+   text-align: center;
+   padding-right:80px;
+}
+.form-itemg{
+   width:90%;
+   height: 60px; 
+   display: inline; 
+   gap: 35px; 
+   justify-content: center;
+   align-items: center;
+}
+.form-itemg>button{
+   background-color:lightgray;
+   text-align: center;
+   color:black;
+   border: 5px;
+   padding-left:15px;
+   margin:10px;
+   width:40%;
+   cursor: pointer;
+   display: inline;
+   font-size:15px;
+}
+.form-itemg>btn{ 
+   color:black; 
+       background-color:lightgray;
+       border: 5px black;
+       padding-right:15px;
+       margin:10px;
+       text-align: center; 
+       width: 40%;
+       cursor:pointer ;
+       font-size: 15px;
+   } 
+
+   .form-item2{
+      width:50% ;
+      display:block;
+      background-color:white;
+      height:200px ;
+      padding-bottom:830px; 
+      gap: 40px;
+      margin-left:30px ;
+      border-top: 1.5px solid goldenrod; */
+      border-bottom:3px solid goldenrod;
+   }   
+   .form-item2>img{
+      width:100%;
+      height:300px;
+   }
+   .form-item2-3{
+      width:25% ;
+      background-color:white;
+      height: 100px;
+      padding-bottom:150px;
+      display:inline-flex;
+      gap: 30px;
+      border-inline: 1.5px solid goldenrod;
+   }   
+
+   .form-item2-3>img{
+      width:580%;
+      height:250px;
+   }
+   .form-item2-4{
+      width:25% ;
+      background-color:white;
+      height: 100px;
+      padding-bottom:150px;
+      display: inline-flex;
+      gap: 30px;
+      border-inline:1.5px solid goldenrod;
+   }
+   .form-item2-4>img{
+      width:300%;
+      height:250px;
+   }
+   .privacy{
+      width: 100%;
+      height:150px;
+      background-color:darkslategrey;
+      justify-content: center;
+      display:inline-block;
+      align-content: center;
+      text-align: center;
+      gap: 10px;
+      border-top: 10px solid goldenrod;
+   }
+  .privacy-item{
+     width: 80%;
+     display:inline;
+     gap: 50px;
+     padding-left: 45px;
+     height: 300px;
+     margin-top: 50px;
+  }
+  .privacy-item>h3{ color:white; 
+     padding-left:300px;
+     margin-top:70px;
+     text-align:center;  
+     width: 40%; 
+     font-size: 15px;
+     display:inline-block;
+  }
+  .privacy-item>p{
+     padding-left:150px;
+     margin-top:70px;
+     width:60%;   
+     text-align: center;
+     display:inline;
+     font-size: 15px;
+  }
+  .privacy-item1{
+     width:90%;
+     height:100px; 
+     display: inline block; 
+     gap: 100px; 
+     justify-content: center;
+     align-items: center;
+     padding-left: 250px;
+  }
+  .privacy-item1>button{
+     background-color:goldenrod;
+     text-align: center;
+     align-items: center;
+     color:white;
+     border: 5px;
+     border-radius:40%;
+     padding-left:80px;
+     margin-top:10px; 
+     width:25%;
+     display: inline;
+     font-size:13px;
+     height: 20px;
+     gap: 100px;
+     align-items: center;
+  }
+  
+   .privacy-item1>btn{
+      background-color:red;
+      text-align: center;
+      color:white;
+      border: 5px;
+      border-radius:20%;
+      padding-left:40px;
+      margin-top:10px;
+      width:25%;
+      display: inline;
+      font-size:13px;
+      gap: 100px;
+   }
+   .privacy-item1>button{
+      background-color:goldenrod;
+      text-align: center;
+      color:white;
+      border: 5px;
+      border-radius:40%;
+      padding-left:40px;
+      margin-top:10px;
+      width:25%;
+      display: inline;
+      font-size:13px;
+      gap: 100px;
+      height: 20px;
+      align-items: center;
+   }
